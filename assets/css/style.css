@@ -1,0 +1,54 @@
+/* General */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Form */
+
+form {
+    margin: 5vh 5%;
+
+}
+
+div {
+    margin: 3vh 0 3vh 0;
+}
+
+form div span {
+    color: red;
+}
+
+form div h1 {
+    font-size: 1.5rem;
+}
+
+form div:nth-of-type(1) input {
+    width: 15%;
+    padding: 1vh 3% 1vh 0.5%;
+}
+
+form div input {
+    width: 30%;
+    padding: 1vh 3% 1vh 0.5%;
+}
+
+form div:nth-of-type(3) select {
+    width: 30%;
+    padding: 1vh 3% 1vh 0.5%;
+}
+
+form div textarea {
+    width: 30%;
+}
+
+form div:nth-of-type(5) input {
+    background-color: cadetblue;
+    color: aliceblue;
+}
